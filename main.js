@@ -48,6 +48,7 @@ function computerSelection(){
 }
 function playerSelection(){
     let choice = prompt("Please enter rock, paper or scissors");
+    choice = choice.toLowerCase();
     console.log(choice);
     if((choice != "rock") && (choice != "paper") && (choice != "scissors"))
     {
